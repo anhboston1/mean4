@@ -21,8 +21,6 @@ mongoose.connect('mongodb://anhboston1:ph9729ng@ds155424.mlab.com:55424/customer
     }
 });
 
-
-
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'hbs');
