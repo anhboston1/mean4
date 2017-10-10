@@ -15,7 +15,7 @@ var options = {
     useMongoClient: true,
     promiseLibrary: global.Promise
 };
-mongoose.connect('mongodb://localhost:27017/node-angular', options, (err) => {
+mongoose.connect('mongodb://anhboston1:ph9729ng@ds155424.mlab.com:55424/customermanager', options, (err) => {
     if (err) {
         console.log('mongoose.connect() failed: ' + err);
     }
